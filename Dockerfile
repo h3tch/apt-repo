@@ -15,3 +15,5 @@ ENV DEBIAN_FRONTEND=dialog
 COPY ./main.sh /
 
 EXPOSE 80
+
+# RUN echo "deb [trusted=yes] http://localhost/repo/ /" > /etc/apt/sources.list.d/internal.list
